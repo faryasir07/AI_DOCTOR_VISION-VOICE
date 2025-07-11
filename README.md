@@ -73,53 +73,58 @@ cd ai-doctor-vision-voice
 
 ✅ Step 2: Set Up the Virtual Environment
 
-
+```bash
 python -m venv doctor_venv
 source doctor_venv/bin/activate      # Linux/macOS
 doctor_venv\Scripts\activate         # Windows
-
+```
 
 ✅ Step 3: Install Requirements
 
-
+```bash
 pip install --upgrade pip
 pip install -r requirements.txt
+```
+
+
 ✅ Step 4: Add Environment Variables
 Create a .env file with:
 
-
+```bash
 GROQ_API_KEY=your_groq_api_key
 ELEVEN_API_KEY=your_elevenlabs_api_key
-
+```
 
 ✅ Step 5: Launch the App
 
-
+```bash
 python gradio_app.py
 📸 UI Preview
 Uploading Soon: Screenshots or demo video
+```
+
 
 🔮 Roadmap
- Add multilingual transcription + response
+ 1)Add multilingual transcription + response
 
- Integrate a medical symptom database
+ 2)Integrate a medical symptom database
 
- Mobile compatibility (via Gradio Spaces or Flutter frontend)
+ 3)Mobile compatibility (via Gradio Spaces or Flutter frontend)
 
- Store session logs for learning/tracking
+ 4)Store session logs for learning/tracking
 
- Add more realistic doctor voice emotions using ElevenLabs styles
+ 5)Add more realistic doctor voice emotions using ElevenLabs styles
 
 🤝 Contributing
 Contributions, feature requests, and feedback are welcome!
 
-Fork the repository
+1)Fork the repository
 
-Create your feature branch (git checkout -b feature/awesome-feature)
+2)Create your feature branch (git checkout -b feature/awesome-feature)
 
-Commit your changes (git commit -m 'Add some feature')
+3)Commit your changes (git commit -m 'Add some feature')
 
-Push to the branch (git push origin feature/awesome-feature)
+4)Push to the branch (git push origin feature/awesome-feature)
 
-Open a Pull Request
+5)Open a Pull Request
 
