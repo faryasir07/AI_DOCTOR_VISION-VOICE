@@ -66,4 +66,60 @@ This project explores the potential of combining **LLMs**, **Computer Vision**, 
 
 ```bash
 git clone https://github.com/faryasir07/AI_DOCTOR_VISION-VOICE.git
-cd ai-doctor-vision-voice'''
+cd ai-doctor-vision-voice
+```
+
+
+
+✅ Step 2: Set Up the Virtual Environment
+
+
+python -m venv doctor_venv
+source doctor_venv/bin/activate      # Linux/macOS
+doctor_venv\Scripts\activate         # Windows
+
+
+✅ Step 3: Install Requirements
+
+
+pip install --upgrade pip
+pip install -r requirements.txt
+✅ Step 4: Add Environment Variables
+Create a .env file with:
+
+
+GROQ_API_KEY=your_groq_api_key
+ELEVEN_API_KEY=your_elevenlabs_api_key
+
+
+✅ Step 5: Launch the App
+
+
+python gradio_app.py
+📸 UI Preview
+Uploading Soon: Screenshots or demo video
+
+🔮 Roadmap
+ Add multilingual transcription + response
+
+ Integrate a medical symptom database
+
+ Mobile compatibility (via Gradio Spaces or Flutter frontend)
+
+ Store session logs for learning/tracking
+
+ Add more realistic doctor voice emotions using ElevenLabs styles
+
+🤝 Contributing
+Contributions, feature requests, and feedback are welcome!
+
+Fork the repository
+
+Create your feature branch (git checkout -b feature/awesome-feature)
+
+Commit your changes (git commit -m 'Add some feature')
+
+Push to the branch (git push origin feature/awesome-feature)
+
+Open a Pull Request
+
