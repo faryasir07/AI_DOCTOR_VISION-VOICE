@@ -105,6 +105,7 @@ Uploading Soon: Screenshots or demo video
 
 
 🔮 Roadmap
+
  1)Add multilingual transcription + response
 
  2)Integrate a medical symptom database
